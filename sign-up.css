@@ -1,0 +1,85 @@
+:root {
+  --mint-green: #3EB489;
+  --dark-green: #0B4D34;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: darkslateblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+#container {
+  max-width: 100%;
+
+}
+
+#sign-up-card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+
+  margin: 40px auto 20px;
+  padding: 20px 40px;
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  padding: 15px 0px 5px 0px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  height: 25px;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+  background-color: var(--mint-green);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px var(--dark-green);
+}
+
+button:active {
+  box-shadow: 3px 3px var(--dark-green);
+  transform: translate(2px, 2px);
+}
+
+.sign-up-footer {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.body-text {
+  color: white;
+}
+
+.mint-green {
+  color: var(--mint-green);
+}
+
+.link {
+  color:blue;
+}
